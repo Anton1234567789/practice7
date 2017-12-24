@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<OldCards>
+<OldCard>
+<Thema>Городской пейзаж</Thema>
+<Type>Поздравительная</Type>
+<Country>Украина</Country>
+<Year>2018</Year>
+<Author exist="true">Не найден</Author>
+<Valuable>Историческая</Valuable>
+</OldCard>
+<OldCard>
+<Thema>Люди</Thema>
+<Type>Поздравительная</Type>
+<Country>Украина</Country>
+<Year>2016</Year>
+<Author exist="true">Чарльз</Author>
+<Valuable>Коллекционная</Valuable>
+</OldCard>
+<OldCard>
+<Thema>Природа</Thema>
+<Type>Рекламная</Type>
+<Country>Англия</Country>
+<Year>2017</Year>
+<Author exist="true">Дональд</Author>
+<Valuable>Историческая</Valuable>
+</OldCard>
+</OldCards>

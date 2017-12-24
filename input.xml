@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr7:OldCards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:pr7="http://ua/nure/Sokolov/practice7/oldCards"
+          xsi:schemaLocation="http://ua/nure/Sokolov/practice7/oldCards input.xsd">
+    <OldCard sent="true">
+        <Thema>Городской пейзаж</Thema>
+        <Type>Поздравительная</Type>
+        <Country>Украина</Country>
+        <Year>2018</Year>
+        <Author exist="false">Не найден</Author>
+        <Valuable>Историческая</Valuable>
+    </OldCard>
+
+    <OldCard>
+        <Thema>Природа</Thema>
+        <Type>Рекламная</Type>
+        <Country>Англия</Country>
+        <Year>2017</Year>
+        <Author exist="true">Дональд</Author>
+        <Valuable>Историческая</Valuable>
+    </OldCard>
+
+    <OldCard>
+        <Thema>Люди</Thema>
+        <Type>Поздравительная</Type>
+        <Country>Украина</Country>
+        <Year>2016</Year>
+        <Author exist="true">Чарльз</Author>
+        <Valuable>Коллекционная</Valuable>
+    </OldCard>
+
+</pr7:OldCards>

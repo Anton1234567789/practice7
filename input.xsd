@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  XML schema -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://ua/nure/Sokolov/practice7/oldCards"
+            xmlns:tns="http://ua/nure/Sokolov/practice7/oldCards">
+
+
+    <xsd:element name="OldCards">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="OldCard"
+                             type="tns:OldCard" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+        <xsd:complexType name="OldCard">
+                <xsd:sequence>
+                        <xsd:element type="xsd:string" name="Thema"/>
+                        <xsd:element type="xsd:string" name="Type"/>
+                        <xsd:element type="xsd:string" name="Country"/>
+
+                        <xsd:element name="Year">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:pattern value="\d{1,4}"/>
+                                <!--<xsd:pattern value="(^[1-2]{1}[0-9]{3})"/>-->
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                        </xsd:element>
+
+                        <xsd:element name="Author">
+                            <xsd:complexType mixed="true">
+                                <xsd:attribute type="xsd:boolean" name="exist" default="false"/>
+                            </xsd:complexType>
+                        </xsd:element>
+                        <xsd:element type="xsd:string" name="Valuable"/>
+                </xsd:sequence>
+                <xsd:attribute type="xsd:boolean" name="sent" default="false"/>
+        </xsd:complexType>
+
+
+</xsd:schema>
